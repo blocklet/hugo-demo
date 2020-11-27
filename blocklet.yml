@@ -1,0 +1,29 @@
+name: hugo-demo
+version: 1.0.0
+author:
+  name: Arcblock
+license: MIT
+main: blocklet-demo/public
+files:
+  - blocklet-demo/public
+description: 'Hugo Demo Blocklet'
+group: static
+specVersion: 1.0.1
+did: z8ia4ejtwVATdwMqF5f1uSjHkhp6K2t6DCJGR
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+scripts: {}
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: false
