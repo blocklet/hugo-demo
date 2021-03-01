@@ -6,7 +6,13 @@ author:
 license: MIT
 main: public
 files:
+  - blocklet.md
+  - README.md
   - public
+keywords:
+  - static
+  - demo
+  - hugo
 group: static
 specVersion: 1.0.1
 did: z8iZt9rNVboWvUJbXnZNa9M9njqEJoBeBS74D
