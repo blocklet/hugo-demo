@@ -1,14 +1,14 @@
 {
   "name": "hugo-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hugo Demo Blocklet",
   "author": "ArcBlock",
   "scripts": {
     "dev": "hugo server --source blocklet-demo --port ${BLOCKLET_PORT:-${PORT:-3000}} ",
     "build": "hugo --source blocklet-demo",
-    "clean": "rm -rf .blocklet && rm -rf blocklet-demo/public ",
-    "bundle": "npm run clean && npm run build && abtnode bundle --create-release",
-    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
+    "clean": "rm -rf .blocklet && rm -rf blocklet-demo/public public",
+    "bundle": "npm run clean && npm run build && mv blocklet-demo/public public && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
   },
   "license": "MIT"
 }

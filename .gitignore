@@ -15,5 +15,6 @@
 # vendor/
 
 .blocklet
+/public
 
 blocklet-demo/public
