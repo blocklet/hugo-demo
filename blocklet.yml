@@ -1,4 +1,5 @@
 name: hugo-demo
+title: Hugo Demo
 version: 1.0.2
 description: A static blocklet content site powered by Hugo.
 author:
