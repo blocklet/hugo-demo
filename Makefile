@@ -1,6 +1,6 @@
 dep:
 	@echo "Install dependencies required for this repo..."
-	@sudo brew install hugo
+	@brew install hugo
 
 test:
 	@echo "Running test suites..."
