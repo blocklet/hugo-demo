@@ -1,12 +1,19 @@
 name: hugo-demo
-version: 1.0.1
+title: Hugo Demo
+version: 1.0.2
 description: A static blocklet content site powered by Hugo.
 author:
   name: Arcblock
 license: MIT
 main: public
 files:
+  - blocklet.md
+  - README.md
   - public
+keywords:
+  - static
+  - demo
+  - hugo
 group: static
 specVersion: 1.0.1
 did: z8iZt9rNVboWvUJbXnZNa9M9njqEJoBeBS74D
