@@ -1,15 +1,15 @@
 name: hugo-demo
-version: 1.0.0
+version: 1.0.1
+description: A static blocklet content site powered by Hugo.
 author:
   name: Arcblock
 license: MIT
 main: public
 files:
   - public
-description: A static blocklet content site powered by Hugo.
 group: static
 specVersion: 1.0.1
-did: z8ia4ejtwVATdwMqF5f1uSjHkhp6K2t6DCJGR
+did: z8iZt9rNVboWvUJbXnZNa9M9njqEJoBeBS74D
 community: ''
 documentation: ''
 homepage: ''
@@ -25,5 +25,7 @@ screenshots: []
 scripts: {}
 timeout:
   start: 10
-capabilities:
-  dynamicPathPrefix: false
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
