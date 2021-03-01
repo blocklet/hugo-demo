@@ -3,10 +3,10 @@ version: 1.0.0
 author:
   name: Arcblock
 license: MIT
-main: blocklet-demo/public
+main: public
 files:
-  - blocklet-demo/public
-description: 'Hugo Demo Blocklet'
+  - public
+description: A static blocklet content site powered by Hugo.
 group: static
 specVersion: 1.0.1
 did: z8ia4ejtwVATdwMqF5f1uSjHkhp6K2t6DCJGR
