@@ -1,5 +1,5 @@
 name: hugo-demo
-version: 1.0.3
+version: 1.0.4
 description: A static blocklet content site powered by Hugo.
 author:
   name: Arcblock
@@ -15,7 +15,7 @@ keywords:
   - demo
   - hugo
 group: static
-specVersion: 1.0.1
+specVersion: 1.1.1
 did: z8iZt9rNVboWvUJbXnZNa9M9njqEJoBeBS74D
 community: ''
 documentation: ''
@@ -24,7 +24,7 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: '*'
+    prefix: /
     port: BLOCKLET_PORT
     protocol: tcp
 environments: []
@@ -41,3 +41,4 @@ charging:
   tokens: []
   shares: []
 children: []
+capabilities: {}
