@@ -21,9 +21,6 @@ jobs:
           repository: budparr/gohugo-theme-ananke
           path: blocklet-demo/themes/ananke
 
-      - name: Set yarn cache
-        uses: c-hive/gha-yarn-cache@v2
-
       - name: Install dependencies
         run: make dep
 
