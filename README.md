@@ -11,14 +11,13 @@ Hugo is a static HTML and CSS website generator written in Go. It is optimized f
 
 ## Install on my ABT Node
 
-[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fhugo-demo%2Freleases%2Fdownload%2F1.0.4%2Fblocklet.json)
+[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fhugo-demo%2Freleases%2Fdownload%2Fv1.0.4%2Fblocklet.json)
 
 ## Run and debug in the cloud with Gitpod
 
 Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/hugo-demo)
-
 
 ## Run and debug locally
 

@@ -1,5 +1,5 @@
 name: hugo-demo
-version: 1.0.4
+version: 1.0.5
 description: A static blocklet content site powered by Hugo.
 author:
   name: Arcblock
@@ -15,7 +15,7 @@ keywords:
   - demo
   - hugo
 group: static
-specVersion: 1.1.1
+specVersion: 1.2.0
 did: z8iZt9rNVboWvUJbXnZNa9M9njqEJoBeBS74D
 community: ''
 documentation: ''
@@ -36,9 +36,9 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 children: []
-capabilities: {}
+capabilities:
+  clusterMode: false
